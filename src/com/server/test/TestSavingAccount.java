@@ -89,7 +89,7 @@ public class TestSavingAccount
         
         int amount = (int) (usCurrency.getRupeesConvresionRate() * usCurrency.getCurrencyValue());
         
-        assertEquals( 1000+amount, obj.getBalance());//verify the current  balance
+        assertEquals( 1001+amount, obj.getBalance());//verify the current  balance
     }
 	
 	@Test

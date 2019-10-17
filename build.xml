@@ -29,8 +29,7 @@
 	    <mkdir dir="${build}" />
 		<mkdir dir="${build.dir}" />
 		<mkdir dir="${reports}" />
-		<mkdir dir="${reports}/raw" />
-		 
+		<mkdir dir="${reports}/raw" />		 
 		
 		<echo message="Compiling Java  Source files "/>
 		<echo message="Current Ant version is  ${ant.version}"/>
@@ -140,7 +139,7 @@
 	
 	 
 
-  <target name="BuildJar" depends="compileJava">    
+  <target name="BuildJar" depends="test-report">    
       
       <echo message="Running the Jar task."/>		 
 		
