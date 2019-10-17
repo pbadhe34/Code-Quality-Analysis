@@ -58,7 +58,7 @@ public class TestSavingAccount
         //SavingAccount obj = new SavingAccount();
         obj.deposit(1000);
         obj.deposit(2400);              
-        assertEquals(3400, obj.getBalance());//verify the final balance
+        assertEquals(3401, obj.getBalance());//verify the final balance Added
 	}
 	@Test
 	public void testSavingAccountInitBalance()
