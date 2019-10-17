@@ -48,6 +48,8 @@ public class SavingAccount {
     } 
     public void withdraw(int amount)
     {      
+    	if(amount < 0 )
+			throw new RuntimeException("Negative amount tried to withDraw");
         if(amount  >  balance )
         { 
            throw new WithDrawAmountMoreThanBalance("More amount withdrawn");
