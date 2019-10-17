@@ -1,15 +1,14 @@
 package com.server.bank;
 
-public class Account {
-	
+public class Account {	
 	private String branchName;
-	public Account()
-	{
-		System.out.println("Account.Account() heer");
+	public Account(){
+		System.out.println("Account.Account() here.");
 	}
 	
 	public Account(String newName)
 	{
+		System.out.println("Account constructor..()");
 		name.concat(newName);
 	}
 	 private int account_no;
