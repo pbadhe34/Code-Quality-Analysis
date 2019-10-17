@@ -4,7 +4,7 @@ public abstract class Currency {
 
 	public abstract double getRupeesConvresionRate() ;	 
 
-	public abstract int getCurrencyValue() ; 
+	public abstract int getCurrencyValue();
 
 	 
 
